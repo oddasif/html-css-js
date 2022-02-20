@@ -94,11 +94,9 @@ body {
     color: white;
     visibility: hidden;
     cursor: pointer;
-    /* padding: 0%; */
-    /* margin: 0%; */
     position: relative;
     top: 1rem;
-    left: 10.5rem;
+    left: 12.5rem;
 }
 #clock-container:hover #more-horiz2 {
     visibility: visible;
