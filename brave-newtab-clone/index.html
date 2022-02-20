@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>New Tab</title>
+</head>
+
+<body onload="startTime(), getRandomImage(randomNum)" >
+
+    <div id="links-container">
+        
+        <a href="https://www.google.com/">
+            <div class="link-box">
+                <img src="https://img.icons8.com/color/65/000000/google-logo.png"/>
+                Google
+            </div>
+        </a>
+        <a href="https://www.instagram.com/">
+            <div class="link-box">
+                <img src="https://img.icons8.com/fluency/65/000000/instagram-new.png"/>
+                Instagram
+            </div>
+        </a>
+        <a href="https://www.facebook.com/">   
+            <div class="link-box">
+                <img src="https://img.icons8.com/color/65/000000/facebook-new.png"/>
+                Facebook
+            </div>
+        </a>
+        <a href="https://www.reddit.com/">
+            <div class="link-box">
+                <img src="https://img.icons8.com/color-glass/65/000000/reddit.png"/>
+                Reddit
+            </div>
+        </a>
+        <a href="https://www.youtube.com/">
+            <div class="link-box">
+                <img src="https://img.icons8.com/color/65/000000/youtube-play.png"/>
+                YouTube
+            </div>
+        </a>
+        <span class="material-icons-outlined" id="more-horiz">more_horiz</span>
+
+    </div>
+
+    <div id="clock-container">
+
+        <span class="material-icons-outlined" id="more-horiz2">more_horiz</span>
+        <div id="time"></div>
+
+    </div>
+    
+    <div id="bottom-container">
+
+        <p id="image-credit"></p>
+        <div id="elements-container">
+            <span class="material-icons-outlined elements" >tune <p id="customize">Customize</p></span>
+            <p id="pipe">|</p>
+            <a href="brave://settings/"><span class="material-icons-outlined elements">settings</span></a>
+            <a href="brave://bookmarks/"><span class="material-icons-outlined elements">class</span></a>
+            <a href="brave://history/"><span class="material-icons-outlined elements">history</span></a>
+            <a href="https://talk.brave.com/widget"><span class="material-icons-outlined elements">videocam</span></a>
+        </div>
+    
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

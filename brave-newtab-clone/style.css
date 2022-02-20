@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --font-color: rgb(214, 207, 207);
+    --background-gradient: linear-gradient(to right, #414345, #232526);
+}
+
+body {
+    background: no-repeat fixed ;
+    background-size: cover;
+}
+
+
+
+/* all link boxes holder styling */
+#links-container {
+    padding: 2rem 1rem 2rem 2rem;
+    border-radius: 1.3rem;
+    float: left;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+#links-container:hover {
+    background: var(--background-gradient);
+}
+
+
+
+/* individual link box elemenets styling */
+.link-box{
+    width: 4.063rem;
+    height: 4.063rem;
+    background-color:white;
+    border-radius: .7rem;
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    text-align: center;
+}
+.link-box:hover {
+    transform: scale(1.02, 1.02);
+}
+
+
+
+/* links text styling */
+#links-container a {
+    color: white;
+    font-size: .8rem;
+    text-decoration: none;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+
+
+/* the more button styling */
+#more-horiz {
+    color: white;
+    position: relative;
+    bottom: 5rem;
+    visibility: hidden;
+    cursor: pointer;
+}
+#links-container:hover #more-horiz {
+    visibility: visible;
+}
+
+
+
+/* Clock container styling */
+#clock-container {
+    padding: 0rem 2.5rem 0rem 1rem;
+    border-radius: 1.3rem;
+    float: right;
+    position: relative;
+    right: 1rem;
+    top: 1rem;
+}
+#clock-container:hover {
+    background: var(--background-gradient);
+}
+
+
+
+/* the more button styling */
+#more-horiz2 {
+    color: white;
+    visibility: hidden;
+    cursor: pointer;
+    /* padding: 0%; */
+    /* margin: 0%; */
+    position: relative;
+    top: 1rem;
+    left: 10.5rem;
+}
+#clock-container:hover #more-horiz2 {
+    visibility: visible;
+}
+
+
+
+/* the timer inside the clock container */
+#time{
+    color: white;
+    font-size: 5rem;
+    margin-right: 1rem;
+    position: relative;
+    top: -1rem;
+}
+
+
+
+/* It contains the image credit text on the left and the elements on the right */
+#bottom-container {
+    display: flex;
+    /* background: var(--background-gradient); */
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
+    top: 78vh;
+}
+
+
+
+/* Styling the text of image credit */
+#image-credit{
+    color: var(--font-color);
+    font-size: .8rem;
+}
+
+
+
+/* Styling the individual elements/icons in the elements-container */
+.elements{
+    color: var(--font-color);
+    margin-right: 1rem;
+}
+.elements:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Styling the Paragraph tags inside the element container */
+#elements-container #customize{
+    display: inline-block;
+    position: relative;
+    bottom: .45rem;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+#elements-container #pipe {
+    color: var(--font-color);
+    margin-right: 1rem;
+    display: inline-block;
+    position: relative;
+    bottom: .5rem;
+    font-size: 1.5rem; 
+    bottom: .25rem;
+}
+
+
+
+/* Styling the link text of image credit */
+#image-credit a:link{
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+#image-credit a:hover{
+    color: white;
+}
