@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(233, 233, 233);
+}
+
+/* firefox horizontal logo styles */
+#logo {
+  width: 250px;
+  margin: 10px auto;
+  position: relative;
+  top: 25vh;
+}
+
+
+/* google search icon and input field container */
+#search {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  position: relative;
+  top: 30vh;
+}
+
+
+/* search input field design */
+#searchbox {
+  width: 552px;
+  height: 40px;
+  border-width: 0px;
+}
+
+/* flex container holding all the individual link boxes */
+#links-box {
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 800px;
+    margin: 10px auto;
+    position: relative;
+    top: 32vh;
+}
+
+/* individual link box styles */
+.link-properties {
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-size: contain;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+
+.link-properties:hover {
+  transform: scale(1.01, 1.01);
+}
+
+/* link box caption style */
+.cap-prop {
+  position: relative;
+  left: 0%;
+  top: 100%;
+  margin: 6px;
+  font-size: 12px;
+}
+
+a {
+  color: black;
+}
+
+
+/* Adding images to individual link box */
+#fb {
+  background-image: url("/firefox-newtab-clone/images/fb.png");
+}
+#youtube {
+  background-image: url("/firefox-newtab-clone/images/youtube.png");
+}
+#amazon {
+  background-image: url("/firefox-newtab-clone/images/amazon.png");
+}
+#insta {
+  background-image: url("/firefox-newtab-clone/images/insta.png");
+}
+#netflix {
+  background-image: url("/firefox-newtab-clone/images/netflix.png");
+}
+#google {
+  background-image: url("/firefox-newtab-clone/images/google.png");
+}
